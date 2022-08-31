@@ -76,6 +76,6 @@ Infine si è utilizzata come metrica per valutare l'efficienza dei modelli, l'*a
 | **K-Nearest Neighbor** | 87.9% |
 
 ## **Autori**
-- [Marco Cecca](@marcocecca00) - m.cecca3@studenti.uniba.it
+- [Marco Cecca](https://github.com/marcocecca00) - m.cecca3@studenti.uniba.it
 - Giorgia Osella - g.osella@studenti.uniba.it
 - Vincenzo Scolletta - v.scolletta1@studenti.uniba.it
