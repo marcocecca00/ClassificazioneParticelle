@@ -11,7 +11,7 @@ I dati utilizzati sono il prodotto della risposta di sei diversi rilevatori, usa
 
 ## **Composizione DataSet**
 
-\
+
 Le *features* presenti nel dataset utilizzato sono le seguenti:
 
 |    Features    |              Significato              | Unità di Misura |
@@ -19,12 +19,12 @@ Le *features* presenti nel dataset utilizzato sono le seguenti:
 |  **id**  |            Nome Particella            |    $NoDim$    |
 |   **p**   |           Quantità di moto           |    $GeV/c$    |
 | **theta** |          Angolo di Scattering          |     $rad$     |
-| **beta** | Rapporto tra la velocità $v$ e $c$ |    $NoDim$    |
+| **beta** | Rapporto tra la velocità$v$ e $c$ |    $NoDim$    |
 | **nphe** |        Numero di fotoelettroni        |    $NoDim$    |
 |  **ein**  |          Energia in ingresso          |     $GeV$     |
 | **eout** |           Energia in uscita           |     $GeV$     |
 
-\
+
 A ciascun *id*  inoltre è associata una precisa particella:
 
 |        id        | Particella |              Simbolo              | Massa (MeV) |
@@ -34,7 +34,7 @@ A ciascun *id*  inoltre è associata una precisa particella:
 | **(321)** |   Kaoni   |     $K \quad (K^0,K^+,K^-)$     |   $495$   |
 | **(2212)** |  Protoni  |               $p$               |   $940$   |
 
-\
+
 Indipendentemente dal modello fisco alla base, ossia il [Modello Standard](https://it.wikipedia.org/wiki/Modello_standard), è sufficiente sapere che ciascuna particella è caratterizzata da un determinato set di valori e in particolare dalla loro *massa a riposo*.
 
 ## **Analisi Esplorativa & Preparazione dei Dati**
@@ -68,14 +68,15 @@ Mentre per **MLPClassifier** si è scelto di effettuare una *ottimizzazione degl
 
 Infine si è utilizzata come metrica per valutare l'efficienza dei modelli, l'*accuracy*  e ,visivamente, delle *matrici di confusione*. I risultati non mostrano una predominanza di un modello rispetto ad un altro, ma il KNeighborsClassifier è il meno efficiente.
 
-|    Classifier    |  Accuracy  |
-| :--------------: | :--------: |
-|  **Decision Tree**  | 90.2%  |
-|   **Random Forest**   |  93.0%  |
-| **ML Perceptron** |   93.0%   |
-| **K-Nearest Neighbor** | 87.9% |
+|          Classifier          | Accuracy |
+| :--------------------------: | :------: |
+|   **Decision Tree**   |  89.6%  |
+|   **Random Forest**   |  93.2%  |
+|   **ML Perceptron**   |  93.1%  |
+| **K-Nearest Neighbor** |  88.6%  |
 
 ## **Autori**
+
 - [Marco Cecca](https://github.com/marcocecca00) - m.cecca3@studenti.uniba.it
 - Giorgia Osella - g.osella@studenti.uniba.it
 - Vincenzo Scolletta - v.scolletta1@studenti.uniba.it
