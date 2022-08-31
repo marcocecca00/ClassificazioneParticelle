@@ -1,6 +1,6 @@
 <h1> Classificazione dei prodotti di Scattering Elettrone-Protone</h1>
 
-Confronto tra diversi modelli di *apprendimento supervisionato* per la *classificazione* di particelle prodotte durante uno scattering inelastico elettrone-protone basato sulla risposta di sei diversi rilevatori. L'obiettivo è quello di identificare le particelle e valutare il migliore modello tra i seguenti:
+Confronto tra diversi modelli di *apprendimento supervisionato* per la *classificazione* di particelle prodotte durante uno scattering inelastico elettrone-protone. L'obiettivo è quello di identificare le particelle e valutare il migliore modello tra i seguenti:
 
 - **Decision Tree**
 - **Random Forest**
@@ -10,7 +10,6 @@ Confronto tra diversi modelli di *apprendimento supervisionato* per la *classifi
 I dati utilizzati sono il prodotto della risposta di sei diversi rilevatori, usanti mediante la piattaforma di simulazione *[GEANT4](https://geant4.web.cern.ch/)*. Il DataSet è reperibile su *[Kaggle](https://www.kaggle.com/datasets/naharrison/particle-identification-from-detector-responses)*.
 
 ## **Composizione DataSet**
-
 
 Le *features* presenti nel dataset utilizzato sono le seguenti:
 
@@ -24,7 +23,6 @@ Le *features* presenti nel dataset utilizzato sono le seguenti:
 |  **ein**  |          Energia in ingresso          |     $GeV$     |
 | **eout** |           Energia in uscita           |     $GeV$     |
 
-
 A ciascun *id*  inoltre è associata una precisa particella:
 
 |        id        | Particella |              Simbolo              | Massa (MeV) |
@@ -33,7 +31,6 @@ A ciascun *id*  inoltre è associata una precisa particella:
 | **(211)** |   Pioni   | $\pi \quad (\pi^0,\pi^+,\pi^-)$ |   $133$   |
 | **(321)** |   Kaoni   |     $K \quad (K^0,K^+,K^-)$     |   $495$   |
 | **(2212)** |  Protoni  |               $p$               |   $940$   |
-
 
 Indipendentemente dal modello fisco alla base, ossia il [Modello Standard](https://it.wikipedia.org/wiki/Modello_standard), è sufficiente sapere che ciascuna particella è caratterizzata da un determinato set di valori e in particolare dalla loro *massa a riposo*.
 
