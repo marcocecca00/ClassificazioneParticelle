@@ -18,7 +18,7 @@ Le *features* presenti nel dataset utilizzato sono le seguenti:
 |  **id**  |            Nome Particella            |    $NoDim$    |
 |   **p**   |           Quantità di moto           |    $GeV/c$    |
 | **theta** |          Angolo di Scattering          |     $rad$     |
-| **beta** | Rapporto tra la velocità $\ v$ e$\ c$ |    $NoDim$    |
+| **beta** | Rapporto tra la velocità $v$ e $c$ |    $NoDim$    |
 | **nphe** |        Numero di fotoelettroni        |    $NoDim$    |
 |  **ein**  |          Energia in ingresso          |     $GeV$     |
 | **eout** |           Energia in uscita           |     $GeV$     |
