@@ -28,7 +28,7 @@ A ciascun *id*  inoltre è associata una precisa particella:
 |        id        | Particella |              Simbolo              | Massa (MeV) |
 | :--------------: | :--------: | :-------------------------------: | :---------: |
 | **(-11)** | Positroni |              $e^+$              |  $0.51$  |
-| **(211)** |   Pioni   | $\pi \quad (\pi^0,\pi^+,\pi^-)$ |   $133$   |
+| **(211)** |   Pioni   | $\pi \quad (\pi^0,\pi^+,\pi^-)$ |   $137$   |
 | **(321)** |   Kaoni   |     $K \quad (K^0,K^+,K^-)$     |   $495$   |
 | **(2212)** |  Protoni  |               $p$               |   $940$   |
 
