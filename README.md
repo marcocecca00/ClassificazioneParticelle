@@ -1,3 +1,7 @@
+[![Made withJupyter](https://img.shields.io/badge/Made%20with-Jupyter-orange?style=for-the-badge&logo=Jupyter)](https://jupyter.org/try)
+
+[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg
+
 <h1> Classificazione dei prodotti di Scattering Elettrone-Protone</h1>
 
 Confronto tra diversi modelli di *apprendimento supervisionato* per la *classificazione* di particelle prodotte durante uno scattering inelastico elettrone-protone. L'obiettivo è quello di identificare le particelle e valutare il migliore modello tra i seguenti:
